@@ -34,9 +34,7 @@ export default function TaskList() {
     // Altere entre `true` ou `false` o campo `isComplete` de uma task com dado ID
   }
 
-  function handleRemoveTask(id: number) {
-    // Remova uma task da listagem pelo ID
-  }
+  function handleRemoveTask(id: number) {}
   return (
     <section className="task-list container">
       <header>
