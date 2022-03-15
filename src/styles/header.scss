@@ -1,0 +1,15 @@
+header.header {
+  flex: 1;
+  background: var(--blue);
+
+  > div {
+    max-height: 1120px;
+    margin: 0 auto;
+
+    padding: 5rem 1rem 10rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
